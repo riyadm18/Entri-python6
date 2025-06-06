@@ -1,0 +1,52 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "5df1c2ba-1e63-4521-86cf-3aba8aa61e75",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Employee:\n",
+    "    def __init__(self, name, salary):\n",
+    "        self.name = name\n",
+    "        self.salary = salary\n",
+    "\n",
+    "    def get_name(self):\n",
+    "        return self.name\n",
+    "\n",
+    "    def get_salary(self):\n",
+    "        return self.salary"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f56ce8b4-7413-406d-ab1d-00f1e1856a19",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
